@@ -1,2 +1,3 @@
 class Catchfriend < ApplicationRecord
+	
 end

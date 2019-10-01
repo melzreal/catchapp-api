@@ -7,7 +7,18 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Catchfriend.create(friendname: "Popo", contact: "mipo12223@gmail.com", reached_out: false)
-Catchfriend.create(friendname: "Shinji", contact: "shinjikun22@gmail.com", reached_out: false)
-Catchfriend.create(friendname: "Tanaka", contact: "tetekaki2@gmail.com", reached_out: false)
+
+
+bobo = User.create(name: "Bojack", email: "bojack@bojack.com", password: "bobo")
+juju = User.create(name: "Ju", email: "ju@ju.com", password: "juju")
+popo = User.create(name: "Po", email: "po@po.com", password: "popo")
+
+
+# popo.catchfriends.create(friendname: "Polianne", contact: "polipoti29494@gmail.com", reached_out: false)
+# popo.catchfriends.create(friendname: "Tanaka", contact: "tetekaki2@gmail.com", reached_out: false)
+# juju.catchfriends.create(friendname: "Shinji", contact: "shinjikun22@gmail.com", reached_out: false)
+# juju.catchfriend.create(friendname: "Popo", contact: "mipo12223@gmail.com", reached_out: false)
+
+Catchfriend.create(friendname: "Mary", contact: "marymary@gmail.com", reached_out: false)
 Catchfriend.create(friendname: "Polianne", contact: "polipoti29494@gmail.com", reached_out: false)
+Catchfriend.create(friendname: "Shinji", contact: "shinjikun22@gmail.com", reached_out: false)
